@@ -13,6 +13,9 @@
 		58C69EC11B70D0CE00E4A430 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C69EC01B70D0CE00E4A430 /* Images.xcassets */; };
 		58C69EC41B70D0CE00E4A430 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C69EC21B70D0CE00E4A430 /* LaunchScreen.xib */; };
 		58C69ED01B70D0CE00E4A430 /* CustomViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C69ECF1B70D0CE00E4A430 /* CustomViewExampleTests.swift */; };
+		58C69EDA1B70D11800E4A430 /* CustomByCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C69ED91B70D11800E4A430 /* CustomByCodeView.swift */; };
+		58C69EDC1B70D12E00E4A430 /* CustomByXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C69EDB1B70D12E00E4A430 /* CustomByXibView.swift */; };
+		58C69EDE1B70D16100E4A430 /* CustomByXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C69EDD1B70D16100E4A430 /* CustomByXib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		58C69EC91B70D0CE00E4A430 /* CustomViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C69ECE1B70D0CE00E4A430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C69ECF1B70D0CE00E4A430 /* CustomViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewExampleTests.swift; sourceTree = "<group>"; };
+		58C69ED91B70D11800E4A430 /* CustomByCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomByCodeView.swift; sourceTree = "<group>"; };
+		58C69EDB1B70D12E00E4A430 /* CustomByXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomByXibView.swift; sourceTree = "<group>"; };
+		58C69EDD1B70D16100E4A430 /* CustomByXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomByXib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				58C69EB91B70D0CE00E4A430 /* AppDelegate.swift */,
 				58C69EBB1B70D0CE00E4A430 /* ViewController.swift */,
 				58C69EBD1B70D0CE00E4A430 /* Main.storyboard */,
+				58C69ED91B70D11800E4A430 /* CustomByCodeView.swift */,
+				58C69EDB1B70D12E00E4A430 /* CustomByXibView.swift */,
+				58C69EDD1B70D16100E4A430 /* CustomByXib.xib */,
 				58C69EC01B70D0CE00E4A430 /* Images.xcassets */,
 				58C69EC21B70D0CE00E4A430 /* LaunchScreen.xib */,
 				58C69EB71B70D0CE00E4A430 /* Supporting Files */,
@@ -193,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C69EBF1B70D0CE00E4A430 /* Main.storyboard in Resources */,
+				58C69EDE1B70D16100E4A430 /* CustomByXib.xib in Resources */,
 				58C69EC41B70D0CE00E4A430 /* LaunchScreen.xib in Resources */,
 				58C69EC11B70D0CE00E4A430 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C69EDC1B70D12E00E4A430 /* CustomByXibView.swift in Sources */,
 				58C69EBC1B70D0CE00E4A430 /* ViewController.swift in Sources */,
+				58C69EDA1B70D11800E4A430 /* CustomByCodeView.swift in Sources */,
 				58C69EBA1B70D0CE00E4A430 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
